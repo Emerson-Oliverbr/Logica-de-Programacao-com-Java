@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+/home/emerson/ws-eclipse/.metadata/.plugins/org.eclipse.jdt.core
+4071426965.index
+1054273708.index
+3561508649.index
+1865797976.index

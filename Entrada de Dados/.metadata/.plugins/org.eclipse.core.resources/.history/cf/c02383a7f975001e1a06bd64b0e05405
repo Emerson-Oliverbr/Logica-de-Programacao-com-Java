@@ -1,0 +1,19 @@
+import java.util.Scanner;
+import java.util.Locale;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+			String palavra = sc.next();;
+			int numero1 = sc.nextInt();
+			double numero2 = sc.nextDouble();
+			System.out.println("Dados Digitados: ");
+			System.out.println(palavra);
+			System.out.println(numero1);
+			System.out.printf("%.2f%n" , numero2);
+		sc.close();
+	}
+
+}

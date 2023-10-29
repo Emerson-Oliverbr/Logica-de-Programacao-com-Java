@@ -1,0 +1,30 @@
+import java.util.Locale;
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		String produto1 = "Computador";
+		String produto2 = "Mesa de Escritorio"; 
+
+		int idade  = 31;
+		int codigo = 5290;
+		char genero = 'F';
+		
+		double preco1 = 2100.00;
+		double preco2 = 650.50;
+		double medida = 53.234567;		
+		
+		System.out.println("Produtos:");
+		System.out.printf(produto1 + " Cujo Preço é: R$ %.2f%n" , preco1);
+		System.out.printf(produto2 + " Cujo preço é: R$ %.2f%n", preco2);
+		System.out.println();
+		System.out.println("Registro: " + idade + " Anos " + " codigo " + codigo + " e seu genero é " + genero);
+		System.out.println();
+		System.out.println("Medida com 8 casas decimais: %.8f%n" + medida);
+		System.out.println("Arredondado para 3 casas decimais: %.3f%n" + medida);
+		Locale.setDefault(Locale.US);
+		System.out.printf("Uso de ponto decimal: %.3f%n", medida);
+	}
+
+}
