@@ -1,7 +1,7 @@
-#Curso Logica de programação e Algoritimos com Linguagem Java
+# Curso Logica de programação e Algoritimos com Linguagem Java
 ##Todos os Exercicios desse curso são da plataforma: https://www.beecrowd.com.br/judge/pt
 
-###Conteudo do curso:
+### Conteudo do curso:
 #Introdução à programação
 
 * Expressões
@@ -12,7 +12,7 @@
 
 4. Lógicas
 
-#Estrutura sequencial
+# Estrutura sequencial
 
 1. Entrada de dados (comando de leitura)
 
